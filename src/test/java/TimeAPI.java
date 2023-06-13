@@ -1,8 +1,7 @@
 import static io.restassured.RestAssured.get;
 
-public class RestAssured {
-  static void cityTime() {
-    String city = "Amsterdam";
+public class TimeAPI {
+  static void cityTime(String city) {
     get("https://timeapi.io/api/Time/current/zone?timeZone=Europe/" + city).then().log().all();
   }
 }
