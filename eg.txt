@@ -1,1 +1,2 @@
-This file is an example
+This file is an example.
+The file now has changes.
